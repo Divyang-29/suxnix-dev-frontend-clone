@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Product Details — Suxnix</title>
+
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+    />
+
+    <link rel="stylesheet" href="./shop-details.css" />
+    <link rel="stylesheet" href="./1.css" />
+  </head>
+
+  <body>
+    <!-- HEADER -->
+    <div class="header">
+      <div class="navbar">
+        <div class="logo">
+          <img src="./Assets/Images/logo.webp" alt="logo" />
+        </div>
+        <div class="componenets">
+          <ul>
+            <li><a href="1.html">Home</a></li>
+            <li><a href="1.html#features">Features</a></li>
+            <li><a href="1.html#product">Product</a></li>
+            <li><a href="1.html#ingredient">Ingredient</a></li>
+            <li><a href="1.html#pricing">Pricing</a></li>
+            <li class="dropdown">
+              <a href="#shop" class="dropbtn">Shop</a>
+
+              <ul class="dropdown-content">
+                <li><a href="shop.html">Our Shop</a></li>
+                <li><a href="shop-details.html">Shop Details</a></li>
+                <li><a href="cart.html">Cart Page</a></li>
+                <li><a href="login.html">Login Page</a></li>
+                <li><a href="register.html">Register</a></li>
+              </ul>
+            </li>
+            <li><a href="1.html/#news">News</a></li>
+            <li><a href="contact-us.html">Contacts</a></li>
+          </ul>
+        </div>
+        <div class="icons">
+          <i class="fa-solid fa-cart-shopping"></i>
+          <i class="fa-solid fa-magnifying-glass"></i>
+          <div class="back-green">
+            <i class="fa-solid fa-table-cells"></i>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- PRODUCT DETAILS SECTION -->
+    <div class="container product-details-section mt-5">
+      <div class="row align-items-start">
+        <!-- LEFT — PRODUCT BIG IMAGE -->
+        <div class="col-md-6">
+          <img
+            src="https://suxnix-dev.myshopify.com/cdn/shop/files/shop-details-thumb03.png?v=1738166857&width=600"
+            class="product-big-img"
+          />
+
+          <!-- SMALL IMAGES BELOW -->
+          <div class="thumb-row mt-3">
+            <img
+              src="https://suxnix-dev.myshopify.com/cdn/shop/files/shop-details-thumb03.png?v=1738166857&width=600"
+              class="thumb active"
+            />
+            <img
+              src="https://suxnix-dev.myshopify.com/cdn/shop/files/shop-details-thumb07.png?v=1738166857&width=600"
+              class="thumb"
+            />
+            <img
+              src="https://suxnix-dev.myshopify.com/cdn/shop/files/shop-details-thumb06.png?v=1738166857&width=100"
+              class="thumb"
+            />
+            <img
+              src="https://suxnix-dev.myshopify.com/cdn/shop/files/shop-details-thumb04.png?v=1738166857&width=100"
+              class="thumb"
+            />
+          </div>
+        </div>
+
+        <!-- RIGHT — PRODUCT INFO -->
+        <div class="col-md-6 product-info">
+          <h1>Antiaging and Longevity</h1>
+
+          <p class="vendor">
+            Vendor: <span>Fashion Shofy Ecommerce</span> &nbsp; | &nbsp;
+            <i class="fa-solid fa-star"></i> 4.5 &nbsp; | &nbsp; ID :
+            7827143852089
+          </p>
+
+          <h2 class="price">
+            Tk 49.99 <span class="in-stock">— IN STOCK</span>
+          </h2>
+
+          <p class="desc">
+            The true strength of Suxnix : Whey Protein Isolates (WPIs) are the
+            purest form of whey protein that currently exists. WPIs are costly
+            to use, but rate among the best...
+          </p>
+
+          <!-- PRODUCT METAS -->
+          <ul class="product-meta">
+            <li>
+              <i class="fa-solid fa-circle-check"></i> Title: Default Title
+            </li>
+            <li>
+              <i class="fa-solid fa-circle-check"></i> Vendor: Fashion Shofy
+              Ecommerce
+            </li>
+            <li><i class="fa-solid fa-circle-check"></i> Type: Supplement</li>
+          </ul>
+
+          <!-- QUANTITY + ADD TO CART -->
+          <div class="cart-row">
+            <button class="qty-btn">-</button>
+            <input type="text" value="1" class="qty-input" />
+            <button class="qty-btn">+</button>
+
+            <button class="add-cart-btn">ADD TO CART</button>
+          </div>
+
+          <!-- TAGS -->
+          <div class="tags">
+            <span>Tags:</span>
+            <button class="tag-btn">medicine</button>
+            <button class="tag-btn">Protein</button>
+          </div>
+
+          <!-- CATEGORY -->
+          <div class="category">
+            <span>Categories:</span>
+            <button class="tag-btn">Nutrition</button>
+            <button class="tag-btn">Protein</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <footer class="sux-footer">
+      <div class="container">
+        <div class="row">
+          <!-- LEFT SECTION -->
+          <div class="col-4 footer-about">
+            <img
+              src="https://suxnix-dev.myshopify.com/cdn/shop/files/logo.png"
+              class="footer-logo"
+            />
+
+            <p class="footer-text">
+              Making beauty especially relating complot especial common
+              questions tend to recur<br />
+              through posts or queries standards vary orem donor command tei.
+            </p>
+
+            <div class="footer-social">
+              <i class="fa-brands fa-facebook-f"></i>
+              <i class="fa-brands fa-twitter"></i>
+              <i class="fa-brands fa-pinterest-p"></i>
+              <i class="fa-brands fa-linkedin-in"></i>
+            </div>
+          </div>
+
+          <!-- ABOUT US -->
+          <div class="col-2 footer-links">
+            <h4>ABOUT US</h4>
+            <p>Shop</p>
+            <p>Contact</p>
+            <p>Blogs</p>
+            <p>Product</p>
+          </div>
+
+          <!-- SUPPORT -->
+          <div class="col-2 footer-links">
+            <h4>SUPPORT</h4>
+            <p>Home</p>
+            <p>Blogs</p>
+            <p>Blog Post</p>
+            <p>Contact</p>
+          </div>
+
+          <!-- CONTACT US -->
+          <div class="col-4 footer-contact">
+            <h4>CONTACT US</h4>
+
+            <p>4140 Parker Rd. Allentown, New Mexico 31134</p>
+
+            <p><i class="fa-solid fa-phone"></i> +1 31-6555-0116</p>
+            <p><i class="fa-regular fa-envelope"></i> Suxnix@example.com</p>
+            <p><i class="fa-solid fa-globe"></i> www.suxnixdomain.com</p>
+          </div>
+        </div>
+
+        <hr />
+
+        <p class="footer-copy">Copyright © 2025 Suxnix All Rights Reserved.</p>
+      </div>
+    </footer>
+    <script>
+      // SMALL IMAGE CLICK TO CHANGE LARGE IMAGE
+      document.querySelectorAll(".thumb").forEach((img) => {
+        img.addEventListener("click", () => {
+          document.querySelector(".product-big-img").src = img.src;
+
+          document
+            .querySelectorAll(".thumb")
+            .forEach((t) => t.classList.remove("active"));
+          img.classList.add("active");
+        });
+      });
+    </script>
+  </body>
+</html>

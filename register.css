@@ -1,0 +1,100 @@
+/* -------------------------
+   PAGE + FONT
+--------------------------- */
+body {
+  margin: 0;
+  background: #ffffff;
+  font-family: Arial, sans-serif;
+}
+
+/* -------------------------
+   CENTER WRAPPER
+--------------------------- */
+.register-wrapper {
+  display: flex;
+  justify-content: center;
+  margin-top: 80px;
+}
+
+/* -------------------------
+   FORM CARD
+--------------------------- */
+.register-card {
+  width: 520px;
+  padding: 40px 50px;
+  background: #f7f7f7;
+  border-radius: 12px;
+  box-shadow: 0 6px 25px rgba(0,0,0,0.07);
+}
+
+.register-card h1 {
+  font-size: 34px;
+  font-weight: 800;
+  margin-bottom: 10px;
+}
+
+.subtitle {
+  color: #666;
+  font-size: 15px;
+  margin-bottom: 25px;
+  line-height: 1.6;
+}
+
+/* -------------------------
+   FORM FIELDS
+--------------------------- */
+label {
+  font-weight: 600;
+  display: block;
+  margin-top: 15px;
+}
+
+input {
+  width: 100%;
+  padding: 13px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  margin-top: 5px;
+  font-size: 15px;
+}
+
+/* TWO COLUMNS (FIRST + LAST NAME) */
+.two-col {
+  display: flex;
+  gap: 20px;
+}
+
+/* -------------------------
+   BUTTON
+--------------------------- */
+.register-btn {
+  margin-top: 28px;
+  width: 100%;
+  background: #0d9b48;
+  color: white;
+  border: none;
+  padding: 15px;
+  border-radius: 30px;
+  font-size: 17px;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.register-btn:hover {
+  background: #0a7c3a;
+}
+
+/* -------------------------
+   LOGIN TEXT
+--------------------------- */
+.login-text {
+  text-align: center;
+  margin-top: 20px;
+  font-size: 15px;
+}
+
+.login-text a {
+  color: #ff8a00;
+  font-weight: bold;
+  text-decoration: none;
+}
