@@ -3,8 +3,12 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>Login — Suxnix</title>
         <link rel="icon" href="https://suxnix-dev.myshopify.com/cdn/shop/files/favicon.png?crop=center&height=32&v=1735561153&width=32">
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
       rel="stylesheet"
@@ -18,14 +22,23 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+    />
     <link rel="stylesheet" href="./1.css" />
+    <link rel="stylesheet" href="./cart.css" />
   </head>
+
   <body>
+    <!-- NAVBAR -->
     <header class="header">
       <div class="navbar">
         <div class="logo">
           <img src="./Assets/Images/logo.webp" alt="logo" />
         </div>
+
         <div class="componenets">
           <ul>
             <li><a href="1.html">Home</a></li>
@@ -33,9 +46,9 @@
             <li><a href="1.html#product">Product</a></li>
             <li><a href="1.html#ingredient">Ingredient</a></li>
             <li><a href="1.html#pricing">Pricing</a></li>
-            <li class="dropdown">
-              <a href="#shop" class="dropbtn">Shop</a>
 
+            <li class="dropdown">
+              <a href="#" class="dropbtn">Shop</a>
               <ul class="dropdown-content">
                 <li><a href="shop.html">Our Shop</a></li>
                 <li><a href="shop-details.html">Shop Details</a></li>
@@ -52,9 +65,10 @@
                 <li><a href="blog.html">Blogs Details</a></li>
               </ul>
             </li>
-            <li><a href="1.html#contacts">Contacts</a></li>
+            <li><a href="contact-us.html">Contacts</a></li>
           </ul>
         </div>
+
         <div class="icons">
           <i class="fa-solid fa-cart-shopping"></i>
           <i class="fa-solid fa-magnifying-glass"></i>
@@ -64,115 +78,14 @@
         </div>
       </div>
     </header>
-    <div class="contact-banner">
-      <div class="overlay"></div>
-      <h1>CONTACT US</h1>
-      <p><a href="#">Home</a> | <span>Contact</span></p>
-    </div>
 
-    <div class="contact-info container" id="contact-us">
-      <div class="row justify-content-center">
-        <!-- OFFICE ADDRESS -->
-        <div class="col-3 contact-box">
-          <img
-            src="https://cdn-icons-png.flaticon.com/512/684/684908.png"
-            class="contact-icon"
-          />
-          <h3>OFFICE ADDRESS</h3>
-          <p>99 NY Address Street, Brooklyn,<br />United State</p>
-        </div>
-
-        <!-- PHONE -->
-        <div class="col-3 contact-box middle">
-          <img
-            src="https://cdn-icons-png.flaticon.com/512/724/724664.png"
-            class="contact-icon"
-          />
-          <h3>PHONE NUMBER</h3>
-          <p>875 7556 464 7658<br />765 648 567 98</p>
-        </div>
-
-        <!-- WEB CONNECT -->
-        <div class="col-3 contact-box">
-          <img
-            src="https://cdn-icons-png.flaticon.com/512/84/84148.png"
-            class="contact-icon"
-          />
-          <h3>WEB CONNECT</h3>
-          <p>info@suxnixmail.com<br />suxnixexample.com</p>
-        </div>
+    <!-- LOGIN CARD -->
+    <div class="login-wrapper mb-5">
+      <div class="cart">
+        <a href="shop.html" style="text-decoration: none;font-size: 20px;color: #FAA432;">Continoue Shopping</a>
       </div>
     </div>
 
-    <div class="contact-us">
-      <div class="cotainer">
-        <div class="row">
-          <div class="col">
-            <div class="contact-us">
-              <div class="container">
-                <div class="row">
-                  <!-- LEFT SIDE MAP -->
-                  <div class="col-6">
-                    <iframe
-                      src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3021.98399606247!2d-73.97968182334106!3d40.682675771393005!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c25b15d17f7af7%3A0xeca5b0b5c01a4f38!2sBarclays%20Center!5e0!3m2!1sen!2sin!4v1736512345678"
-                      width="100%"
-                      height="600"
-                      style="border: 0; border-radius: 10px"
-                      allowfullscreen=""
-                      loading="lazy"
-                    >
-                    </iframe>
-                  </div>
-
-                  <!-- RIGHT SIDE FORM -->
-                  <div class="col-6 contact-form">
-                    <p class="contact-subtitle">.. REQUEST MAKE ..</p>
-                    <h2 class="contact-title">
-                      ASKED ANYTHING YOU WANT TO<br />
-                      KNOW
-                    </h2>
-
-                    <div class="row mt-4">
-                      <div class="col-6">
-                        <label>Name</label>
-                        <input type="text" placeholder="Enter here" />
-                      </div>
-
-                      <div class="col-6">
-                        <label>Email</label>
-                        <input type="email" placeholder="Enter here" />
-                      </div>
-                    </div>
-
-                    <div class="row mt-3">
-                      <div class="col-12">
-                        <label>Select Subject</label>
-                        <select>
-                          <option>Select Subject **</option>
-                          <option>Order Issue</option>
-                          <option>Product Inquiry</option>
-                          <option>Refund / Return</option>
-                          <option>Feedback</option>
-                        </select>
-                      </div>
-                    </div>
-
-                    <div class="row mt-3">
-                      <div class="col-12">
-                        <label>Message</label>
-                        <textarea placeholder="Enter here"></textarea>
-                      </div>
-                    </div>
-
-                    <button class="contact-btn">Make Request</button>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
     <footer class="sux-footer">
       <div class="container">
         <div class="row">
